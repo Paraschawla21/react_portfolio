@@ -8,7 +8,7 @@ function AboutCard() {
             <Card.Body>
                 <blockquote className="blockquote mb-0">
                     <p style={{ textAlign: "justify" }}>
-                        Hi Everyone, I am{" "}
+                        Hi everyone, I'm{" "}
                         <span className="purple"> Paras Chawla </span>
                         from{" "}
                         <span className="purple">
@@ -16,11 +16,11 @@ function AboutCard() {
                             Rudrapur, Uttarakhand, India.{" "}
                         </span>{" "}
                         <br /> Currently, I am a final year student pursuing
-                        Bachelor of Science in Computer Science with
+                        Bachelor of Technology in Computer Science with
                         specialization in Blockchain Technology from VIT
-                        University (Vellore). <br />
-                        I am an aspiring engineer interested in Web Development
-                        and Design. Primarily, I am a Frond End Developer. <br />
+                        University (Vellore). <br /> I am an aspiring engineer
+                        interested in Web Development and Design. Primarily, I
+                        am a Front End Developer. <br />
                         <br />
                         In my spare time, I love to spend my time in activities
                         like:
@@ -40,7 +40,7 @@ function AboutCard() {
                     <p style={{ color: "rgb(155 126 172)" }}>
                         "Strive to build things that make a difference!"{" "}
                     </p>{" "}
-                    <footer className="blockquote-footer"> paras </footer>{" "}
+                    <footer className="blockquote-footer"> Paras </footer>{" "}
                 </blockquote>{" "}
             </Card.Body>{" "}
         </Card>

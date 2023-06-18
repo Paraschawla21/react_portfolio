@@ -20,16 +20,16 @@ function Home2() {
                             MYSELF{" "}
                         </h1>{" "}
                         <p className="home-about-body">
-                            I fell in love with programming and I have at least
-                            learnt something, I think...🤷‍♂️
-                            <br />
+                            I fell in love with programming when I started to
+                            explore the various languages that were used in Web
+                            Development. <br />
                             <br /> I am fluent in classics like{" "}
                             <i>
                                 <b className="purple"> C++ and React.js </b>{" "}
                             </i>{" "}
                             <br />
                             <br />
-                            My field of Interest's include building new{" "}
+                            My field of Interest includes building new{" "}
                             <i>
                                 <b className="purple">
                                     {" "}
@@ -40,7 +40,7 @@ function Home2() {
                             </i>{" "}
                             <br />
                             <br />
-                            Whenever possible, I also apply my passion for
+                            Whenever possible, I also integrate my passion for
                             designing and developing products with{" "}
                             <b className="purple"> React.js </b> and{" "}
                             <i>

@@ -33,18 +33,18 @@ function Projects() {
                         />
                     </Col>{" "}
                     {/* <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={nft}
-                            title="NFT Marketplace"
-                            description=""
-                            ghLink=""
-                        />
-                    </Col>{" "} */}
+                                                <ProjectCard
+                                                    imgPath={nft}
+                                                    title="NFT Marketplace"
+                                                    description=""
+                                                    ghLink=""
+                                                />
+                                            </Col>{" "} */}{" "}
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={chotaDhobi}
                             title="Chota Dhobi"
-                            description="Designed and developed a Laundry Solutions website named Chota Dhobi in which we can give clothes for washing. HTML, CSS and Bootstrap was used for Designing the website, Javascript for the Functioning and Validation, and PHP for Handling the Data and Sending the Data to the backend. Also, PHP mailer is used, which instantly sends a mail whenever you register."
+                            description="Designed and developed a Laundry Solutions website named Chota Dhobi in which we can give clothes for washing. HTML, CSS and Bootstrap was used for designing the website, Javascript for the functioning and validation, and PHP for handling the Data and sending the data to the backend. Also, PHP mailer is used, which instantly sends a mail whenever you register."
                             ghLink="https://github.com/Paraschawla21/chota_dhobi"
                         />
                     </Col>{" "}
@@ -52,7 +52,7 @@ function Projects() {
                         <ProjectCard
                             imgPath={studentList}
                             title="Demo Project to learn MERN"
-                            description="A basic MERN Stack Web application. By entering the student details we can store them at the localhost backend server by using a post request. Moreover, displayed the stored student records using an API by a get request. Also, We can edit the details (put request) and delete the details (delete request)."
+                            description="A basic MERN Stack Web application. By entering the student details we can store them at the localhost backend server by using a post request. Moreover, displayed the stored student records using an API by a get request. Also, we can edit the details (put request) and delete the details (delete request)."
                             ghLink="https://github.com/Paraschawla21/MERNStack_StudentList_Project"
                             demoLink="https://mern-stack-student-list-project.vercel.app/"
                         />
