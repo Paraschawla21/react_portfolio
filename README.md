@@ -7,9 +7,7 @@
 This project was built using these technologies.
 
 -   React.js
--   Node.js
--   Express.js
--   CSS3
+-   CSS3 and React-Bootstrap
 -   VsCode
 -   Vercel
 
@@ -17,7 +15,7 @@ This project was built using these technologies.
 
 **📖 Multi-Page Layout**
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+**🎨 Styled with React-Bootstrap and Css with easy-to-customize colors**
 
 **📱 Fully Responsive**
 
