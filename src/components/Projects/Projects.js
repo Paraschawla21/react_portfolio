@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import odyssey from "../../Assets/Projects/odyssey.png";
 import school from "../../Assets/Projects/school-erp.png";
 import chotaDhobi from "../../Assets/Projects/chotaDhobi.png";
 import studentList from "../../Assets/Projects/studentList.png";
@@ -18,33 +19,34 @@ function Projects() {
                     My Recent <strong className="purple"> Works </strong>{" "}
                 </h1>{" "}
                 <p style={{ color: "white" }}>
-                    Here are a few projects I 've worked on recently.{" "}
+                    Here are a few projects I've worked on recently.{" "}
                 </p>{" "}
                 <Row
                     style={{ justifyContent: "center", paddingBottom: "10px" }}
                 >
                     <Col md={4} className="project-card">
                         <ProjectCard
+                            imgPath={odyssey}
+                            title="Odyssey"
+                            description="A MERN based Learning Management System designed to empower learners with expert-led courses, allowing them to master new skills effectively. Odyssey aims to provide learners with a diverse range of courses led by industry experts, enabling them to excel in their learning endeavors. Not only can users access an extensive library of courses, but they also have the unique ability to create and add their own courses."
+                            ghLink="https://github.com/Paraschawla21/LMS_Odyssey"
+                            demoLink="https://odyssey-pt6n.onrender.com/"
+                        />
+                    </Col>{" "}
+                    <Col md={4} className="project-card">
+                        <ProjectCard
                             imgPath={school}
                             title="School ERP"
-                            description="A simple React based website which basically is a child admission form. Filling all the details about the child and his / her parents and some other details, all the form data will be posted to the backend server through an Application Programming Interface (API)."
+                            description="A simple React based application which basically is a child admission form. Filling all the details about the child and his / her parents and some other details, all the form data will be posted to the backend server through an Application Programming Interface (API)."
                             ghLink="https://github.com/Paraschawla21/school_erp"
                             demoLink="https://school-erp-ruddy.vercel.app/"
                         />
                     </Col>{" "}
-                    {/* <Col md={4} className="project-card">
-                                                <ProjectCard
-                                                    imgPath={nft}
-                                                    title="NFT Marketplace"
-                                                    description=""
-                                                    ghLink=""
-                                                />
-                                            </Col>{" "} */}{" "}
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={chotaDhobi}
                             title="Chota Dhobi"
-                            description="Designed and developed a Laundry Solutions website named Chota Dhobi in which we can give clothes for washing. HTML, CSS and Bootstrap was used for designing the website, Javascript for the functioning and validation, and PHP for handling the Data and sending the data to the backend. Also, PHP mailer is used, which instantly sends a mail whenever you register."
+                            description="Designed and developed a Laundry Solutions web application named Chota Dhobi in which we can deposit our clothes for washing. HTML, CSS and Bootstrap was used for designing the website, Javascript for the functioning and validation, and PHP for handling the Data and sending the data to the backend. Also, PHP mailer is used, which instantly sends a mail whenever you register."
                             ghLink="https://github.com/Paraschawla21/chota_dhobi"
                         />
                     </Col>{" "}
