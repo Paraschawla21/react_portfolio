@@ -65,6 +65,7 @@ function Projects() {
                             title="Covid Dashboard"
                             description="A Covid Dashboard website built with React.js. All the covid data which were present online have been integrated through an API and have been displayed in a table format. Also, React charts have been used."
                             ghLink="https://github.com/Paraschawla21/covid_dashboard"
+                            demoLink="https://school-erp-ruddy.vercel.app/"
                         />
                     </Col>{" "}
                     <Col md={4} className="project-card">
